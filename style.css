@@ -1,0 +1,26 @@
+
+.grid-container {
+  justify-content: center;    
+
+  display: grid;
+
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows:100px 100px 100px 100px;
+  grid-gap: 5px;
+
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgb(255, 215, 140);
+  text-align: center;
+  padding: 20px px;
+  font-size: 20px;
+}
+.Gamebutton{
+  background-color:rgba(0, 0, 0, 0);
+  border-width:1px;
+  font-size:30px;
+  width:100px;
+  height:100px;
+  }
